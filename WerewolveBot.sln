@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WerewolveBot", "WerewolveBot\WerewolveBot.csproj", "{D75E79C0-CC5A-463F-92AC-784D169317DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodBot", "GoodBot\GoodBot.csproj", "{59605516-B858-47E2-BBF9-62276964EAF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D75E79C0-CC5A-463F-92AC-784D169317DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D75E79C0-CC5A-463F-92AC-784D169317DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D75E79C0-CC5A-463F-92AC-784D169317DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D75E79C0-CC5A-463F-92AC-784D169317DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59605516-B858-47E2-BBF9-62276964EAF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59605516-B858-47E2-BBF9-62276964EAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59605516-B858-47E2-BBF9-62276964EAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59605516-B858-47E2-BBF9-62276964EAF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {224CD53A-37CF-499E-AEED-197E0099CEBF}
+	EndGlobalSection
+EndGlobal
