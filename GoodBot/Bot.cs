@@ -89,7 +89,8 @@ namespace GoodBot
 				{
 					Interactivity = this._interactivity,
 					StartTimes = this._starttimes,
-					Cts = this._cts
+					Cts = this._cts,
+					Config = this._config
 				});
 				dep = d.Build();
 			}
@@ -107,6 +108,7 @@ namespace GoodBot
 
 			_cnext.RegisterCommands<Commands.Owner>();
 			_cnext.RegisterCommands<Commands.Interactivity>();
+			_cnext.RegisterCommands<Commands.Werewolve.Signup>();
 
 			_client.Ready += OnReadyAsync;
 		}

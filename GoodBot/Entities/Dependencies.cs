@@ -8,7 +8,8 @@ namespace GoodBot.Entities
 {
     internal class Dependencies
     {
-        internal InteractivityModule Interactivity { get; set; }
+		internal Config Config { get; set; }
+		internal InteractivityModule Interactivity { get; set; }
         internal StartTimes StartTimes { get; set; }
         internal CancellationTokenSource Cts { get; set; }
     }

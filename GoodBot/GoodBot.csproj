@@ -56,7 +56,8 @@
     <Compile Include="Bot.cs" />
     <Compile Include="Commands\Interactivity.cs" />
     <Compile Include="Commands\Owner.cs" />
-    <Compile Include="Commands\Werewolve.cs" />
+    <Compile Include="Commands\Werewolve\Player.cs" />
+    <Compile Include="Commands\Werewolve\Signup.cs" />
     <Compile Include="Entities\Config.cs" />
     <Compile Include="Entities\Dependencies.cs" />
     <Compile Include="Entities\StartTimes.cs" />
